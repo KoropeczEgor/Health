@@ -4,7 +4,7 @@ import {
   faHeartPulse,
   faTruckMedical,
   faTooth,
-} from "@fortawesome/react-fontawesome";
+} from "@fortawesome/free-solid-svg-icons";
 
 import "./info-styled.css";
 

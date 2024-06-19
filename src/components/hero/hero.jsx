@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Doctor from "../../assets/doctor/doctorPicture.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarCheck, faAngleUp } from "@fortawesome/react-fontawesome";
+import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
 import "./hero-styled.css";
