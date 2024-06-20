@@ -12,7 +12,7 @@ const Hero = () => {
   const [goUp, setGoUp] = useState(false);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smoth" });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const handleBookAppointmentClick = () => {
