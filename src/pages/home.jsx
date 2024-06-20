@@ -6,6 +6,7 @@ import About from "../components/about/about";
 import BookAppointment from "../components/bookAppointment";
 import Reviews from "../components/reviews";
 import Doctors from "../components/doctors";
+import Footer from "../components/footer/footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <BookAppointment />
       <Reviews />
       <Doctors />
+      <Footer />
     </div>
   );
 };
