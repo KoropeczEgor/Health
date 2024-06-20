@@ -4,6 +4,7 @@ import Hero from "../components/hero";
 import Info from "../components/info/info";
 import About from "../components/about/about";
 import BookAppointment from "../components/bookAppointment";
+import Reviews from "../components/reviews";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Info />
       <About />
       <BookAppointment />
+      <Reviews />
     </div>
   );
 };

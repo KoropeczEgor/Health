@@ -1,2 +1,2 @@
-import SolutionStep from "./SolutionStep";
+import SolutionStep from "./solutionStep";
 export default SolutionStep;

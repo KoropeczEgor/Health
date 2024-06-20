@@ -1,6 +1,6 @@
 import React from "react";
 import Doctor from "../../assets/doctor/doctorGroup.png";
-import SolutionStep from "../SolutionStep";
+import SolutionStep from "../solutionStep";
 
 import "./about-styled.css";
 
