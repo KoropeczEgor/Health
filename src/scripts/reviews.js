@@ -9,25 +9,22 @@ export const CustomerReviews = [
     name: "Tiguan Turbov",
     location: "Texas, USA",
     message:
-      "Health Plus transformed my healthcare experience! The online consultations were so convenient, and the doctors were knowledgeable and caring.",
+      " healthcare experience! The online consultations were so convenient, and the doctors were knowledgeable and caring.",
   },
   {
     name: "Tomas Turbov",
     location: "Texas, USA",
-    message:
-      "Health Plus transformed my healthcare experience! The online consultations were so convenient, and the doctors were knowledgeable and caring.",
+    message: "experience! ",
   },
   {
     name: "Tort Turbov",
     location: "Texas, USA",
-    message:
-      "Health Plus transformed my healthcare experience! The online consultations were so convenient, and the doctors were knowledgeable and caring.",
+    message: "Health Plus transformed .",
   },
   {
     name: "Violeta Turbov",
     location: "Texas, USA",
-    message:
-      "Health Plus transformed my healthcare experience! The online consultations were so convenient, and the doctors were knowledgeable and caring.",
+    message: "Health Plus transformed my healthcare experience! ",
   },
   {
     name: "Ritherd Turbov",
@@ -39,13 +36,12 @@ export const CustomerReviews = [
     name: "Leonid Turbov",
     location: "Texas, USA",
     message:
-      "Health Plus transformed my healthcare experience! The online consultations were so convenient, and the doctors were knowledgeable and caring.",
+      "The online consultations were so convenient, and the doctors were knowledgeable and caring.",
   },
   {
     name: "Max Turbov",
     location: "Texas, USA",
-    message:
-      "Health Plus transformed my healthcare experience! The online consultations were so convenient, and the doctors were knowledgeable and caring.",
+    message: "cool",
   },
   {
     name: "Timur Turbov",
@@ -56,7 +52,6 @@ export const CustomerReviews = [
   {
     name: "Taras Turbov",
     location: "Texas, USA",
-    message:
-      "Health Plus transformed my healthcare experience! The online consultations were so convenient, and the doctors were knowledgeable and caring.",
+    message: " and the doctors were knowledgeable and caring.",
   },
 ];

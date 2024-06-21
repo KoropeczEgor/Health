@@ -23,7 +23,7 @@ const Reviews = () => {
     const reviewMessage = CustomerReviews[review];
     rName = reviewMessage.name;
     rLocation = reviewMessage.location;
-    rMessage = reviewMessage.rMessage;
+    rMessage = reviewMessage.message;
   };
 
   handleReviewsUpdation();
