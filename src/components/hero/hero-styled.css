@@ -1,48 +1,48 @@
 .hero-section {
-  padding: 32px;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
   background: linear-gradient(to right, #ecf2ff, #fbfcff);
 }
 /* Text section */
 .text-section {
   width: 60%;
-  padding: 0 32px;
+  padding: 0 2rem;
 }
 .text-headline {
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
   color: rgb(77, 75, 75);
   font-family: "Rubik", sans-serif;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: bold;
   letter-spacing: 0.7px;
 }
 .text-title {
-  width: 500px;
+  width: 32rem;
   color: black;
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 .text-descritpion {
-  width: 475px;
-  margin: 32px 0;
+  width: 30rem;
+  margin: 2rem 0;
   color: rgb(77, 75, 75);
   font-family: "Rubik", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   letter-spacing: 0.7px;
   line-height: 1.6rem;
 }
 .text-appointment-btn {
-  padding: 14px 20px;
+  padding: 0.9rem 1.25rem;
   color: white;
   border: 1px solid transparent;
-  border-radius: 28px;
+  border-radius: 1.75rem;
   outline: transparent;
   background-color: #1a8efd;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "Rubik", sans-serif;
   letter-spacing: 0.8px;
   cursor: pointer;
@@ -58,7 +58,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 48px;
+  gap: 2.5rem;
 }
 .text-stats-container {
   text-align: center;
@@ -66,14 +66,14 @@
 .text-stats-container > p {
   color: rgb(77, 75, 75);
   font-family: "Poppins", sans-serif;
-  font-size: 22px;
+  font-size: 1.4rem;
   letter-spacing: 0.7px;
 }
 .text-stats-container p:first-child {
   margin-bottom: 8px;
   color: #1a8efd;
   font-family: "Rubik", sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
 }
 /* Image section */
@@ -88,8 +88,8 @@
 }
 /* Scroll Btn */
 .scroll-up {
-  width: 45px;
-  height: 45px;
+  width: 2.8rem;
+  height: 2.8rem;
   display: none;
   align-items: center;
   text-align: center;
@@ -99,9 +99,9 @@
   border-radius: 50%;
   background-color: #1a8efd;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
-  font-size: 24px;
+  bottom: 3.125rem;
+  right: 3.125rem;
+  font-size: 1.5rem;
   z-index: 20;
   cursor: pointer;
 }
@@ -124,28 +124,28 @@
 }
 @media screen and (max-width: 600px) {
   .text-headline {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .text-title {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
   .text-descritpion {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .text-appointment-btn {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .text-stats {
-    gap: 18px;
+    gap: 1.25rem;
   }
   .text-stats-container > p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .text-stats-container p:first-child {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .scroll-up {
-    bottom: 32px;
-    right: 32px;
+    bottom: 2rem;
+    right: 2rem;
   }
 }
