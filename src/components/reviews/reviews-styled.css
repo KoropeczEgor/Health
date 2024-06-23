@@ -1,9 +1,9 @@
 .review-section {
-  padding: 32px;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
   background: linear-gradient(to right, #ecf2ff, #fbfcff);
 }
 /* Text */
@@ -11,10 +11,10 @@
   width: 100%;
 }
 .rw-text-title {
-  margin: 16px 0;
+  margin: 1rem 0;
   color: #6f7074;
   font-family: "Rubik", sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
   letter-spacing: 0.7px;
 }
@@ -22,16 +22,16 @@
   color: #178bff;
 }
 .rw-text-desc {
-  margin: 16px 0;
+  margin: 1rem 0;
   color: black;
   font-family: "Rubik", sans-serif;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: bold;
   letter-spacing: 0.7px;
   line-height: 2.6rem;
 }
 .rw-text-format {
-  margin: 64px 0;
+  margin: 4rem 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -39,35 +39,35 @@
 }
 .rw-text-quote1 {
   position: absolute;
-  top: -18px;
-  left: -24px;
+  top: -1.125rem;
+  left: -1.5rem;
   color: #178bff;
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
   letter-spacing: 2px;
 }
 .rw-text-quote2 {
   position: absolute;
-  right: -18px;
-  bottom: -24px;
+  right: -1.125rem;
+  bottom: -1.5rem;
   color: #178bff;
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
   letter-spacing: 2px;
 }
 .rw-review {
   display: block;
-  margin: 0 0 0 8px;
+  margin: 0 0 0 0.5rem;
   color: black;
   font-family: "Rubik", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   letter-spacing: 0.7px;
   line-height: 2.2rem;
 }
 .rw-authors {
-  margin: 0 0 0 8px;
+  margin: 0 0 0 0.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -75,26 +75,26 @@
 }
 .rw-reviewer-name {
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 0.8px;
 }
 .rw-reviewer-place {
-  margin: 6px 0 0 0;
+  margin: 0.3rem 0 0 0;
   color: #6f7074;
   font-family: "Rubik", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   letter-spacing: 0.8px;
 }
 /* Buttons */
 .rw-next-btn {
-  margin: 0 24px 0 0;
+  margin: 0 1.5rem 0 0;
   color: black;
   border: 1px solid transparent;
   background-color: transparent;
   outline: transparent;
-  font-size: 48px;
+  font-size: 3rem;
   cursor: pointer;
 }
 .rw-next-btn:hover {
@@ -106,21 +106,21 @@
     letter-spacing: 0.8px;
   }
   .rw-text-title {
-    font-size: 22px;
+    font-size: 1.3rem;
   }
   .rw-text-desc {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
   .rw-review {
-    font-size: 22px;
+    font-size: 1.3rem;
     letter-spacing: 0.7px;
     line-height: 1.8rem;
   }
   .rw-reviewer-name {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .rw-next-btn {
-    margin: 0 16px 0 0;
-    font-size: 40px;
+    margin: 0 1rem 0 0;
+    font-size: 2.5rem;
   }
 }

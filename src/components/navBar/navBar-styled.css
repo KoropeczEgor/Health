@@ -87,8 +87,8 @@
 }
 .mobile-navbar-close {
   position: absolute;
-  top: 28px;
-  right: 28px;
+  top: 1.75rem;
+  right: 1.75rem;
 }
 .mobile-navbar-close .hamb-icon:hover {
   color: rgb(255, 22, 22);
@@ -100,8 +100,8 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  font-size: 24px;
-  gap: 24px;
+  font-size: 1.5rem;
+  gap: 1.5rem;
   text-align: center;
 }
 .mobile-navbar-links li a {
