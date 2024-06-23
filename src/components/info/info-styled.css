@@ -1,14 +1,14 @@
 .info-section {
-  padding: 0 32px;
+  padding: 0 2rem;
   text-align: center;
   background-color: white;
 }
 .info-title-content {
-  margin: 64px 0 128px 0;
+  margin: 4rem 0 8rem 0;
 }
 .info-title {
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 .info-title > span {
@@ -18,37 +18,37 @@
   content: "";
   position: absolute;
   width: 75%;
-  height: 4px;
+  height: 0.25rem;
   background-color: #9d2553;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   left: 0;
-  bottom: -12px;
+  bottom: -0.75rem;
 }
 .info-description {
-  margin: 64px;
+  margin: 4rem;
   text-align: center;
   color: rgb(77, 75, 75);
   font-family: "Rubik", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   letter-spacing: 0.8px;
   line-height: 1.8rem;
 }
 /* Cards */
 .info-cards-content {
-  margin: 64px 0;
+  margin: 4rem 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  gap: 2rem;
 }
 .info-cards {
   height: auto;
   border: 2px solid #d7d3d3;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   background-color: white;
   position: relative;
 }
 .info-card-title {
-  margin: 32px 0 40px 0;
+  margin: 2rem 0 2.5rem 0;
   color: black;
   font-family: "Poppins", sans-serif;
   font-size: 28px;
@@ -56,7 +56,7 @@
   letter-spacing: 0.8px;
 }
 .info-card-description {
-  margin: 24px;
+  margin: 1.5rem;
   color: rgb(77, 75, 75);
   font-family: "Rubik", sans-serif;
   font-size: 18px;
@@ -65,20 +65,20 @@
 }
 .info-card-icon {
   position: absolute;
-  top: -24px;
+  top: -1.5rem;
   left: 44%;
-  padding: 10px;
+  padding: 0.6rem;
   background-color: #dce6ff;
-  border-radius: 30px;
+  border-radius: 1.8rem;
 }
 .info-fa-icon {
   color: #2c96ff;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 /* Responsive */
 @media screen and (max-width: 1000px) {
   .info-description {
-    margin: 64px 32px;
+    margin: 4rem 2rem;
   }
   .info-cards-content {
     grid-template-columns: repeat(2, 1fr);
@@ -86,7 +86,7 @@
 }
 @media screen and (max-width: 700px) {
   .info-description {
-    margin: 64px 8px;
+    margin: 4rem 0.5rem;
   }
   .info-cards-content {
     grid-template-columns: repeat(1, 1fr);
